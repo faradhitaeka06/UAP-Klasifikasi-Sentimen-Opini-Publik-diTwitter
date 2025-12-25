@@ -223,25 +223,24 @@ Evaluasi dilakukan menggunakan metrik **Accuracy, Precision, Recall, dan F1-Scor
 
 ### 1. Clone Repositori
 
-bash
+```bash
 git clone https://github.com/faradhitaeka06/UAP-Klasifikasi-Sentimen-Opini-Publik-diTwitter
+```
 
-### 2. Instal PDM dan Dependensi
+### 2. Instalasi dependensi
 
-bash
-pip install pdm
-pdm init
-pdm install
+```bash
+python -m pip install streamlit
+```
 
 ### 3. Jalankan Aplikasi
 
-bash
-streamlit run app.py
-
+```bash
+python -m streamlit run app.py
+```
 
 ### 4. Akses dashboard 
 
-bash
+```bash
 Akses dashboard di http://localhost:8501.
-
----
+```
