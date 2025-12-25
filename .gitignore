@@ -1,0 +1,8 @@
+# Mengabaikan file model yang terlalu besar
+*.safetensors
+*.keras
+*.h5
+
+# Mengabaikan folder model jika ada
+Model Bert Base Uncased/
+Model DistilBert/
